@@ -17,3 +17,9 @@ Set the animation frames to account for different browsers
 <img width="1201" alt="animationframe" src="https://cloud.githubusercontent.com/assets/24251065/23625564/a23d843e-0277-11e7-96fe-c2185570e6ff.png">
 
 
+Set perameters 
+
+<img width="588" alt="second block" src="https://cloud.githubusercontent.com/assets/24251065/23625599/d2370ee4-0277-11e7-83a0-1896be6de5ab.png">
+
+Create while loop: 
+
