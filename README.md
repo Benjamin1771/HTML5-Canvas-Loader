@@ -14,3 +14,6 @@ For this we will be using the canvas tag
 Define variables to use throughout the class
 Set the animation frames to account for different browsers
 
+<img width="1201" alt="animationframe" src="https://cloud.githubusercontent.com/assets/24251065/23625564/a23d843e-0277-11e7-96fe-c2185570e6ff.png">
+
+
