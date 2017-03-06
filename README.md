@@ -10,3 +10,7 @@ For the purpose of this assignment, I ended up creating a loader animation seen 
 For this we will be using the canvas tag 
 
 <img width="638" alt="canvas code" src="https://cloud.githubusercontent.com/assets/24251065/23625301/b5c7d906-0276-11e7-814a-7226b1784263.png">
+
+Define variables to use throughout the class
+Set the animation frames to account for different browsers
+
