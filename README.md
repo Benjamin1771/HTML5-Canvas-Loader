@@ -23,3 +23,5 @@ Set perameters
 
 Create while loop: 
 
+<img width="547" alt="while loop" src="https://cloud.githubusercontent.com/assets/24251065/23625635/eb54022e-0277-11e7-89e4-f1133ded4f6c.png">
+
