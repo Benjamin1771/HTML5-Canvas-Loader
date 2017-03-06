@@ -25,3 +25,6 @@ Create while loop:
 
 <img width="547" alt="while loop" src="https://cloud.githubusercontent.com/assets/24251065/23625635/eb54022e-0277-11e7-89e4-f1133ded4f6c.png">
 
+Set Rectangle as second img
+
+<img width="647" alt="rectangle image" src="https://cloud.githubusercontent.com/assets/24251065/23625710/1b802acc-0278-11e7-95dc-62474035b677.png">
