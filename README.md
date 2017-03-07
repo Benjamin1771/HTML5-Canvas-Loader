@@ -8,4 +8,6 @@
 
 <img width="410" alt="canvassimple" src="https://cloud.githubusercontent.com/assets/24251065/23676416/a3d9cad6-034a-11e7-8f91-26b5ac0f012d.png">
 
-The 
+This loader animated accross the screen from left to right and repeats. To do this we need to introduce the canvas element in our code: 
+
+
