@@ -47,9 +47,12 @@ This is a very simple, working version of a basic loader done on the canvas with
 <h3>The 3 Attached HTML Files</h3>
 <p>There are 3 files attached in this repository.</p>
 
-<p>Two of them are done on the canvas without a framework: the one I just went over above, and a more challenging one that requires some more advanced familiarity with the canvas and javascript language. </p> 
+<p>Two of them are done on the canvas without a framework: the one I just went over:</p>
 
 <img width="419" alt="simpleloader" src="https://cloud.githubusercontent.com/assets/24251065/23678160/f5ccfe02-0350-11e7-8191-10dc90c50bdb.png">
+
+<p>There is also a more challenging one that requires some more advanced familiarity with the canvas and javascript language: </p> 
+
 <img width="431" alt="canvasinter" src="https://cloud.githubusercontent.com/assets/24251065/23680585/c28c5e44-0359-11e7-8566-866131ccc5fe.png">
 
 <p>The other file is CSS based loading animation.</p>
