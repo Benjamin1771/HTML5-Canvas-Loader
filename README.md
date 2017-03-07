@@ -6,7 +6,8 @@
 
 <p>Below is a simple loader created on the canvas without a framework. It is very basic, and the .html file can be found in this repository.</p>
 
-<img width="410" alt="canvassimple" src="https://cloud.githubusercontent.com/assets/24251065/23676416/a3d9cad6-034a-11e7-8f91-26b5ac0f012d.png">
+<img width="419" alt="simpleloader" src="https://cloud.githubusercontent.com/assets/24251065/23678160/f5ccfe02-0350-11e7-8191-10dc90c50bdb.png">
+
 
 
 This loader animated accross the screen from left to right and repeats. To do this we need to introduce the canvas element in our code. The canvas element has an ID for css properties, and a height and width value determining its size.  
