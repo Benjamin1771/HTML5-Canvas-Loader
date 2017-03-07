@@ -60,4 +60,5 @@ This is a very simple, working version of a basic loader done on the canvas with
 
 <img width="278" alt="cssloader" src="https://cloud.githubusercontent.com/assets/24251065/23680539/96c56d64-0359-11e7-94a2-5ad447812f96.png">
 
-
+<p>Other CSS based loaders:</p>
+https://www.pexels.com/blog/css-only-loaders/
