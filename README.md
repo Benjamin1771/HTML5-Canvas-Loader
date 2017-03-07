@@ -45,4 +45,9 @@ This is a very simple, working version of a basic loader done on the canvas with
 
 <h1>The HTML Files in This Repository</h1>
 <h3>The 3 Attached HTML Files</h3>
-<p>The files attached </p> 
+<p>There are 3 files attached in this repository.</p>
+
+<p>Two of them are done on the canvas without a framework: the one I just went over above, and a more challenging one that requires some more advanced familiarity with the canvas and javascript language. </p> 
+
+<p>The other file is CSS based loading animation.</p>
+<p>The CSS file is to show how a lot can be done within a framework, with little coding. The loading animation this file creates is a fairly common one used - you will likely recodnize it:</p> 
