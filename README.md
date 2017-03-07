@@ -16,3 +16,6 @@ Var Canvas
 
 <img width="571" alt="canvasvar" src="https://cloud.githubusercontent.com/assets/24251065/23676760/bdacc908-034b-11e7-9287-8d465d208629.png">
 
+Along with a couple of variables we will call later: 
+
+<img width="246" alt="vars" src="https://cloud.githubusercontent.com/assets/24251065/23677338/bd2f6cf4-034d-11e7-8870-e0f1423ddc14.png">
