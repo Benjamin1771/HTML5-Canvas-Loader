@@ -1,6 +1,6 @@
 # HTML5-Canvas-Loader
 
-<h3> Creating loaders on the HTML Canvas without a framework </h3>
+<h3> Creating loaders on the HTML Canvas without a framework: </h3>
 
 <p>The purpose of this assignment was to understand working without a framework on the html canvas. Frameworks make coding faster and simpler, but undertanding how much simpler the framework makes things is worth noting. </p>
 
@@ -43,5 +43,6 @@ Call setInterval function to loop through creating contents - this creates a tai
 
 This is a very simple, working version of a basic loader done on the canvas without a framework. I've attached this file, along with two additional files in the repository. 
 
+<h4>The HTML files in this repository</h4>
 <h3>The attached files</h3>
 <p>The files attached </p> 
