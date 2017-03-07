@@ -39,3 +39,9 @@ Call setInterval function to loop through creating contents - this creates a tai
 <img width="324" alt="setinterval" src="https://cloud.githubusercontent.com/assets/24251065/23678077/9c9588d6-0350-11e7-9c71-afa8e0fec5f6.png">
 
 <img width="144" alt="call30" src="https://cloud.githubusercontent.com/assets/24251065/23678080/9dea6efe-0350-11e7-9059-df6f26e532ee.png">
+
+
+This is a very simple, working version of a basic loader done on the canvas without a framework. I've attached this file, along with two additional files in the repository. 
+
+<h3>The attached files</h3>
+<p>The files attached </p> 
