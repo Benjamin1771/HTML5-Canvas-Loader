@@ -55,6 +55,7 @@ This is a very simple, working version of a basic loader done on the canvas with
 
 <img width="431" alt="canvasinter" src="https://cloud.githubusercontent.com/assets/24251065/23680585/c28c5e44-0359-11e7-8566-866131ccc5fe.png">
 
+<p>As previously mentioned, these two loaders are done without a framework, on the canvas.</p>
 <p>The other file is CSS based loading animation.</p>
 
 <img width="278" alt="cssloader" src="https://cloud.githubusercontent.com/assets/24251065/23680539/96c56d64-0359-11e7-94a2-5ad447812f96.png">
