@@ -44,5 +44,5 @@ Call setInterval function to loop through creating contents - this creates a tai
 This is a very simple, working version of a basic loader done on the canvas without a framework. I've attached this file, along with two additional files in the repository. 
 
 <h1>The HTML files in this repository</h1>
-<h3>The attached files</h3>
+<h3>There are 3 attached HTML files</h3>
 <p>The files attached </p> 
