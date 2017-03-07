@@ -33,3 +33,8 @@ Create rectangle with low opacity
 <img width="545" alt="rect" src="https://cloud.githubusercontent.com/assets/24251065/23677941/1d1a8b2e-0350-11e7-8c0a-4d71305b9525.png">
 
 Call setInterval function to loop through creating contents - this creates a tail for the circle, and a rectangle that appears over top the last created circle. 
+
+
+<img width="324" alt="setinterval" src="https://cloud.githubusercontent.com/assets/24251065/23678077/9c9588d6-0350-11e7-9c71-afa8e0fec5f6.png">
+
+<img width="144" alt="call30" src="https://cloud.githubusercontent.com/assets/24251065/23678080/9dea6efe-0350-11e7-9059-df6f26e532ee.png">
