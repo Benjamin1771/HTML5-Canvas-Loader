@@ -46,7 +46,7 @@ This is a very simple, working version of a basic loader done on the canvas with
 <h3>The 3 Attached HTML Files</h3>
 <p>There are 3 files attached in this repository.</p>
 
-<p>Two of them are done on the canvas without a framework: the one I just went over:</p>
+<p>Two of them are done on the canvas without a framework - there is the one I just went over:</p>
 
 <img width="419" alt="simpleloader" src="https://cloud.githubusercontent.com/assets/24251065/23678160/f5ccfe02-0350-11e7-8191-10dc90c50bdb.png">
 
@@ -54,7 +54,8 @@ This is a very simple, working version of a basic loader done on the canvas with
 
 <img width="431" alt="canvasinter" src="https://cloud.githubusercontent.com/assets/24251065/23680585/c28c5e44-0359-11e7-8566-866131ccc5fe.png">
 
-<p>As previously mentioned, these two loaders are done without a framework, on the canvas.</p>
+<p>For the more challenging loader, it is important to remember that the logic is the same: we draw on the canvas, animate the object, create copies of that object and remove them by way of placing new ones over top. There are good examples (other than this one) of this available if you look for them. I posted some links below if you want to familiarize yourself more with some of the logic used in both of these examples. As previously mentioned, these two loaders are done <b>without</b> a framework.</p>
+
 <p>The other file is CSS based loading animation.</p>
 <p>The CSS file is to show how a lot can be done within a framework, with little coding. The loading animation this file creates is a fairly common one used - you will likely recodnize it:</p> 
 
@@ -62,3 +63,7 @@ This is a very simple, working version of a basic loader done on the canvas with
 
 <p>Other CSS based loaders:</p>
 https://www.pexels.com/blog/css-only-loaders/
+
+<p>Working on the canvas:</p>
+https://www.w3schools.com/html/html5_canvas.asp
+https://www.w3schools.com/graphics/canvas_reference.asp
