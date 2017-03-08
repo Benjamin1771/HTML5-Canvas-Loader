@@ -32,15 +32,14 @@
 
 <img width="545" alt="rect" src="https://cloud.githubusercontent.com/assets/24251065/23677941/1d1a8b2e-0350-11e7-8c0a-4d71305b9525.png">
 
-<p>Call setInterval function to loop through creating contents - this creates a tail for the circle, and a rectangle that appears over top the last created circle. </p>
+<p>Call setInterval function to loop through creating contents - this creates a tail for the circle, and a rectangle that appears over top the last created circle. The setInterval function is ran every 30ms, and both the circle and rectangle are wrapped in it. We have set the rectangles opacity to a low value, so that we can see a "fading" tail behind the circle. Playing with the opacity is what determined the length of the tail. The if statement is to repeate the animation after the circle reaches x=400. Where 400 is the size of our canvas, this will loop the animation. </p>
 
 
 <img width="324" alt="setinterval" src="https://cloud.githubusercontent.com/assets/24251065/23678077/9c9588d6-0350-11e7-9c71-afa8e0fec5f6.png">
 
 <img width="144" alt="call30" src="https://cloud.githubusercontent.com/assets/24251065/23678080/9dea6efe-0350-11e7-9059-df6f26e532ee.png">
 
-
-This is a very simple, working version of a basic loader done on the canvas without a framework. I've attached this file, along with two additional files in the repository. 
+This is a very simple, working version of a basic loader done on the canvas without a framework, but is an easily expandable file. The more familiar you are with javascript, the easier this will be to move forward with.  
 
 <h1>The HTML Files in This Repository</h1>
 <h3>The 3 Attached HTML Files</h3>
