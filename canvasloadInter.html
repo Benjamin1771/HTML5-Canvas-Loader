@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Loader2</title>
+<style type="text/css">
+canvas {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -225px 0 0 -225px;
+  /*background-color: lightblue;*/
+}
+</style>
+
+<body>
+
+<canvas id="canvas" width="450" height="450"></canvas>
+
+<script type="text/javascript">
+
+var canvasLoader = function(){
+  var circle = this;
+  window.requestAnimFrame=function(){
+    return window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||
+    function(){window.setTimeout()}
+  }();
+
+  circle.start = function(){
+    circle.canvas = document.getElementById('canvas');
+    circle.ctx = circle.canvas.getContext('2d');
+    // Color //
+    circle.ctx.strokeStyle = 'darkblue';
+    // Number of lines //
+    circle.count = 5;
+    // Rotation Start Position //
+    circle.rotation = 90;
+    // Rotation Speed SET //
+    circle.speed = .05;
+    // Loop SET //
+    circle.Loop();
+  };
+
+        // Function: Rotation: //
+        // created to call later and have rectangle follow //
+
+      circle.startLoader = function(){
+        // Rotation Speed //
+        circle.rotation += circle.speed;
+      };
+
+  circle.Load = function(){
+    circle.ctx.save();
+    circle.ctx.globalCompositeOperation = 'source-over';
+    // position //
+    circle.ctx.translate(225, 225);
+
+    circle.ctx.rotate(circle.rotation);
+    var i = circle.count;
+
+    // draw specifics //
+
+    while(i--){
+      circle.ctx.beginPath();
+      // Makeup //
+      circle.ctx.arc(140, 0, i+30, -10, false);
+      circle.ctx.stroke();
+    }
+    circle.ctx.restore();
+  };
+
+// RECTANGLE FADE //
+
+  circle.Loop = function(){
+    requestAnimFrame(circle.Loop, circle.canvas);
+    circle.ctx.globalCompositeOperation = 'destination-out';
+   // Set Alpha //
+    circle.ctx.fillStyle = 'rgba(0,0,0,.08)';
+   // Set Size //
+    circle.ctx.fillRect(0,0,400,400);
+
+    circle.startLoader();
+    circle.Load();
+  };
+};
+
+var loader = new canvasLoader();
+loader.start();
+	</script>
+</body>

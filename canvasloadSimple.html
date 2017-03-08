@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LoaderSimple</title>
+    <style type="text/css">
+    </style>
+  </head>
+
+<body>
+  <canvas id="canvas" width="400" height="400"></canvas>
+</body>
+
+    <script type="text/javascript">
+
+      window.onload = function(){
+        var canvas = document.getElementById('canvas'),
+            c = canvas.getContext("2d");
+
+        var posX1 = 0,
+            posY1 = 200;
+
+          setInterval(function(){
+            posX1 +=4;
+            if (posX1 > 400){
+              posX1 = 0;
+            }
+
+            c.fillStyle = "rgba(250,250,250,.15)";
+            c.fillRect(0,0, canvas.width, canvas.height);
+
+            c.fillStyle = "lightblue";
+            c.beginPath();
+            c.arc(posX1, posY1, 10, 0, Math.PI*2, false);
+            c.fill();
+
+          }, 30);
+      };
+    </script>
+
+</html>
